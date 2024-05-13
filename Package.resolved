@@ -3,10 +3,10 @@
     {
       "identity" : "pageboy",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/uias/Pageboy",
+      "location" : "https://github.com/shopl/Pageboy",
       "state" : {
-        "revision" : "be0c1f6f1964cfb07f9d819b0863f2c3f255f612",
-        "version" : "4.2.0"
+        "branch" : "main",
+        "revision" : "bb6f503eb54cb7a6dce3623dfd91a71d9a18c6dd"
       }
     }
   ],

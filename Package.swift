@@ -13,7 +13,7 @@ let package = Package(
             targets: ["Tabman"])
     ],
     dependencies: [
-        .package(url: "https://github.com/uias/Pageboy", from: "4.2.0")
+        .package(url: "https://github.com/shopl/Pageboy", branch: "main")
     ],
     targets: [
         .target(
