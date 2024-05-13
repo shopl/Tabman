@@ -20,8 +20,8 @@ let package = Package(
             name: "Tabman",
             dependencies: ["Pageboy"],
             path: "Sources/Tabman",
-            exclude: ["Tabman.h", "Info.plist", "PrivacyInfo.xcprivacy"],
-            resources: [.process("PrivacyInfo.xcprivacy")],
+            exclude: ["Tabman.h", "Info.plist"],
+            resources: [.copy("PrivacyInfo.xcprivacy")],
             linkerSettings: [
                 .linkedFramework("UIKit")
             ]
